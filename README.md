@@ -108,6 +108,7 @@ Kanver Bhandal,
 Bruno Almeida 
 
 ## Acknowledgements
+
 Professor Chow - For being an amazing professor who taught us many useful concepts that we used thoughout our project. 
 
 Daniel Rozhko - Our TA who provided us with lots of helpful feedback and helped answer any questions we had.
