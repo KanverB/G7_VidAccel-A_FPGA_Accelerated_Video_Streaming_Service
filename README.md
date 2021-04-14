@@ -29,7 +29,11 @@ root
 
 ----xaxiemacif_physpeed.c: Modifications done to the default LWIP xaxiemacif_physpeed.c file. Added support for Realtek Ethernet PHYs.
 
---PC_GUI_Server_Client:
+--PC_GUI_Server_Client: The code for our Desktop TCP Server and Desktop TCP Client. Also contains a GUI.
+
+----frame_splitter.py: Code for Desktop TCP Server. Also, splits a video into RGB 888 frames.
+
+----frame_viewer.py: Code for Desktop TCP Client. Also, displays the decoded frames on a GUI and prints to the terminal debugging and logging messages from the FPGA.
 
 --src:
 
