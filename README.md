@@ -37,7 +37,7 @@ root
 
 --src/:
 
-----ccc_codec_ip_1.0/: Directory containing src code and test benches for our encoder and decoder.
+----ccc_codec_ip_1.0/: Directory containing src code and testbenches for our encoder and decoder.
 
 ------hdl/: Directory containing our src verilog files.
 
@@ -57,9 +57,29 @@ root
 
 --------ccc_codec_test_\*.c: 5 test files that each run a different test on the encoder and decoder.
 
+------testbench/: Directory containing our testbench code.
+
+--------ccc_codec_axi_vip_tb.sv: AXI VIP testbench src code.
+
+--------ccc_codec_tb.sv: Src code for codec testbench.
+
+--------ece342_vga_bmp.sv: testbench to show output as a bitmap.
+
+----------tb_frames\: Directory containing a variety of test images in .png and .ppm format. No test images are listed here in the ReadME.
+
 ----constraints/: Directory containing constraints for our boards SD Card pins.
 
+------SDpin.xdc: Constraints file containing our SD Card pin mappings for the Nexys Video Board.
+
 ----MicroBlaze_Code/: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
+
+------echo.c: 
+
+------lwipopts.h.c: 
+
+------main.c: 
+
+------platform.c: 
 
 ----SD_MYCODE_1.0/: Directory containing src code and test drivers for our sd_controller interface. MircoBlaze would communicate with the SD Card using this interface. 
 
