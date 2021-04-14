@@ -73,9 +73,9 @@ root
 
 --------[ece342_vga_bmp.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/testbench/ece342_vga_bmp.sv): testbench to show output as a bitmap.
 
-----------tb_frames\: Directory containing a variety of test images in .png and .ppm format.
+--------tb_frames\: Directory containing a variety of test images in .png and .ppm format.
 
-------------[\*.ppm and \*.png images](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/tree/main/src/ccc_codec_ip_1.0/testbench/tb_frames): A variety of test images used in the testbench for the encoder and decoder.
+----------[\*.ppm and \*.png images](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/tree/main/src/ccc_codec_ip_1.0/testbench/tb_frames): A variety of test images used in the testbench for the encoder and decoder.
 
 ----constraints/: Directory containing constraints for our boards SD Card pins.
 
