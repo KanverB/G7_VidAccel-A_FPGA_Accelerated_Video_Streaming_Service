@@ -59,47 +59,47 @@ root
 
 ------testbench/: Directory containing our testbench code.
 
---------ccc_codec_axi_vip_tb.sv: AXI VIP testbench src code.
+--------[ccc_codec_axi_vip_tb.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/testbench/ccc_codec_axi_vip_tb.sv): AXI VIP testbench src code.
 
---------ccc_codec_tb.sv: Src code for codec testbench.
+--------[ccc_codec_tb.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/testbench/ccc_codec_tb.sv): Src code for codec testbench.
 
---------ece342_vga_bmp.sv: testbench to show output as a bitmap.
+--------[ece342_vga_bmp.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/testbench/ece342_vga_bmp.sv): testbench to show output as a bitmap.
 
 ----------tb_frames\: Directory containing a variety of test images in .png and .ppm format.
 
-------------\*.ppm and \*.png images: A variety of test images used in the testbench for the encoder and decoder.
+------------[\*.ppm and \*.png images](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/tree/main/src/ccc_codec_ip_1.0/testbench/tb_frames): A variety of test images used in the testbench for the encoder and decoder.
 
 ----constraints/: Directory containing constraints for our boards SD Card pins.
 
-------SDpin.xdc: Constraints file containing our SD Card pin mappings for the Nexys Video Board.
+------[SDpin.xdc](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/constraints/SDpin.xdc): Constraints file containing our SD Card pin mappings for the Nexys Video Board.
 
 ----MicroBlaze_Code/: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
 
-------echo.c: The src code for our FPGA TCP Server/Client. Used to send the frames to anyone who connects. Messages or prints are logged using UART onto a terminal.
+------[echo.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/echo.c): The src code for our FPGA TCP Server/Client. Used to send the frames to anyone who connects. Messages or prints are logged using UART onto a terminal.
 
-------lwipopts.h.c: The src code for the parameters we choose for the LWIP driver code. These parameters can be modifed using the Modify BSP Settings button in the system.mss file using Xilinx SDK.
+------[lwipopts.h.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/lwipopts.h): The src code for the parameters we choose for the LWIP driver code. These parameters can be modifed using the Modify BSP Settings button in the system.mss file using Xilinx SDK.
 
-------main.c: The src code for our FPGA TCP Server/Client. Used to receive frames. Also encodes/decodes the frames and writes them to the SD Card. Messages or prints are logged using UART onto a terminal.
+------[main.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/main.c): The src code for our FPGA TCP Server/Client. Used to receive frames. Also encodes/decodes the frames and writes them to the SD Card. Messages or prints are logged using UART onto a terminal.
 
-------platform.c: The src code for adding interrupts for UART into MicroBlaze.
+------[platform.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/platform.c): The src code for adding interrupts for UART into MicroBlaze.
 
 ----SD_MYCODE_1.0/: Directory containing src code and test drivers for our sd_controller interface. MircoBlaze would communicate with the SD Card using this interface. 
 
 ------hdl/: Directory containing our src verilog files.
 
---------SD_MYCODE_v1_0.v: AXI Lite interface src code wrapper.
+--------[SD_MYCODE_v1_0.v](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/SD_MYCODE_1.0/hdl/SD_MYCODE_v1_0.v): AXI Lite interface src code wrapper.
 
---------SD_MYCODE_v1_0_S00_AXI.v: AXI Lite interface src code.
+--------[SD_MYCODE_v1_0_S00_AXI.v](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/SD_MYCODE_1.0/hdl/SD_MYCODE_v1_0_S00_AXI.v): AXI Lite interface src code.
 
 ------MicroBlaze_test/: Directory containing our MicroBlaze testing code.
 
---------sdcarddriver.c: Test file that runs on MicroBlaze that writes and reads blocks to the SD Card.
+--------[sdcarddriver.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/SD_MYCODE_1.0/MicroBlaze_test/sdcarddriver.c): Test file that runs on MicroBlaze that writes and reads blocks to the SD Card.
 
 ----SD_SPI/: Directory containing src code of our modifications to the SD Card SPI interface we used from MIT. 
 
 ------hdl/: Directory containing our src verilog files.
 
---------SD_SPI.v: Src code for the modifications we made to the SD Card SPI controller from MIT.
+--------[SD_SPI.v](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/SD_SPI/hdl/SD_SPI.v): Src code for the modifications we made to the SD Card SPI controller from MIT.
 
 ## Authors
 
