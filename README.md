@@ -25,21 +25,21 @@ root
 
 ----[IMG_3138.mp4](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/Example_Video/IMG_3138.mp4): The video we encoded and decoded. A very cute cat.
 
---LWIP_Modifcations\: Changes we made to LWIP driver files.
+--LWIP_Modifcations/: Changes we made to LWIP driver files.
 
 ----[xaxiemacif_physpeed.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/LWIP_Modifcations/xaxiemacif_physpeed.c): Modifications done to the default LWIP xaxiemacif_physpeed.c file. Added support for Realtek Ethernet PHYs.
 
---PC_GUI_Server_Client: The code for our Desktop TCP Server and Desktop TCP Client. Also contains a GUI.
+--PC_GUI_Server_Client/: The code for our Desktop TCP Server and Desktop TCP Client. Also contains a GUI.
 
 ----frame_splitter.py: Code for Desktop TCP Server. Also, splits a video into RGB 888 frames.
 
 ----frame_viewer.py: Code for Desktop TCP Client. Also, displays the decoded frames on a GUI and prints to the terminal debugging and logging messages from the FPGA TCP Client.
 
---src:
+--src/:
 
-----ccc_codec_ip_1.0: Directory containing src code and test benches for our encoder and decoder.
+----ccc_codec_ip_1.0/: Directory containing src code and test benches for our encoder and decoder.
 
-------hdl: Directory containing our src verilog files.
+------hdl/: Directory containing our src verilog files.
 
 --------ccc_codec_ip_v1_0.v: AXI Lite interface src code wrapper.
 
@@ -53,17 +53,17 @@ root
 
 --------ccc_encoder_4x4.sv: Encoder src code that generates multiple encoders.
 
-------MicroBlaze_test: Directory containing our MicroBlaze testing code.
+------MicroBlaze_test/: Directory containing our MicroBlaze testing code.
 
 --------ccc_codec_test_\*.c: 5 test files that each run a different test on the encoder and decoder.
 
-----constraints: Directory containing constraints for our boards SD Card pins.
+----constraints/: Directory containing constraints for our boards SD Card pins.
 
-----MicroBlaze_Code: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
+----MicroBlaze_Code/: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
 
-----SD_MYCODE_1.0: Directory containing src code and test drivers for our sd_controller interface. MircoBlaze would communicate with the SD Card using this interface. 
+----SD_MYCODE_1.0/: Directory containing src code and test drivers for our sd_controller interface. MircoBlaze would communicate with the SD Card using this interface. 
 
-----SD_SPI: Directory containing src code of our modifications to the SD Card SPI interface we used from MIT. 
+----SD_SPI/: Directory containing src code of our modifications to the SD Card SPI interface we used from MIT. 
 
 ## Authors
 
