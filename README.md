@@ -31,9 +31,9 @@ root
 
 --PC_GUI_Server_Client/: The code for our Desktop TCP Server and Desktop TCP Client. Also contains a GUI.
 
-----frame_splitter.py: Code for Desktop TCP Server. Also, splits a video into RGB 888 frames.
+----[frame_splitter.py](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/PC_GUI_Server_Client/frame_splitter.py): Code for Desktop TCP Server. Also, splits a video into RGB 888 frames.
 
-----frame_viewer.py: Code for Desktop TCP Client. Also, displays the decoded frames on a GUI and prints to the terminal debugging and logging messages from the FPGA TCP Client.
+----[frame_viewer.py](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/PC_GUI_Server_Client/frame_viewer.py): Code for Desktop TCP Client. Also, displays the decoded frames on a GUI and prints to the terminal debugging and logging messages from the FPGA TCP Client.
 
 --src/:
 
@@ -41,21 +41,21 @@ root
 
 ------hdl/: Directory containing our src verilog files.
 
---------ccc_codec_ip_v1_0.v: AXI Lite interface src code wrapper.
+--------[ccc_codec_ip_v1_0.v](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/hdl/ccc_codec_ip_v1_0.v): AXI Lite interface src code wrapper.
 
---------ccc_codec_ip_v1_0_S00_AXI.v: AXI Lite interface src code.
+--------[ccc_codec_ip_v1_0_S00_AXI.v](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/hdl/ccc_codec_ip_v1_0_S00_AXI.v): AXI Lite interface src code.
 
---------ccc_decoder.sv: Decoder src code.
+--------[ccc_decoder.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/hdl/ccc_decoder.sv): Decoder src code.
 
---------ccc_decoder_4x4.sv: Decoder src code that generates multiple decoders.
+--------[ccc_decoder_4x4.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/hdl/ccc_decoder_4x4.sv): Decoder src code that generates multiple decoders.
 
---------ccc_encoder.sv: Encoder src code.
+--------[ccc_encoder.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/hdl/ccc_encoder.sv): Encoder src code.
 
---------ccc_encoder_4x4.sv: Encoder src code that generates multiple encoders.
+--------[ccc_encoder_4x4.sv](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/ccc_codec_ip_1.0/hdl/ccc_encoder_4x4.sv): Encoder src code that generates multiple encoders.
 
 ------MicroBlaze_test/: Directory containing our MicroBlaze testing code.
 
---------ccc_codec_test_\*.c: 5 test files that each run a different test on the encoder and decoder.
+--------[ccc_codec_test_\*.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/tree/main/src/ccc_codec_ip_1.0/MicroBlaze_test): 5 test files that each run a different test on the encoder and decoder.
 
 ------testbench/: Directory containing our testbench code.
 
@@ -65,7 +65,9 @@ root
 
 --------ece342_vga_bmp.sv: testbench to show output as a bitmap.
 
-----------tb_frames\: Directory containing a variety of test images in .png and .ppm format. No test images are listed here in the ReadME.
+----------tb_frames\: Directory containing a variety of test images in .png and .ppm format.
+
+------------\*.ppm and \*.png images: A variety of test images used in the testbench for the encoder and decoder.
 
 ----constraints/: Directory containing constraints for our boards SD Card pins.
 
