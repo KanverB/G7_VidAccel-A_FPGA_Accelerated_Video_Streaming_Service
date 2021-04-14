@@ -21,13 +21,13 @@ root
 
 ----[Final Demo Presentation](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/docs/Final%20Demo%20Presentation.pdf): Our slides that were used in the final presentation of our project.
 
---Example_Video: Directory contaning our example source video to send using our project.
+--Example_Video/: Directory contaning our example source video to send using our project.
 
-----IMG_3138.mp4: The video we encoded and decoded. A very cute cat.
+----[IMG_3138.mp4](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/Example_Video/IMG_3138.mp4): The video we encoded and decoded. A very cute cat.
 
---LWIP_Modifcations: Changes we made to LWIP driver files.
+--LWIP_Modifcations\: Changes we made to LWIP driver files.
 
-----xaxiemacif_physpeed.c: Modifications done to the default LWIP xaxiemacif_physpeed.c file. Added support for Realtek Ethernet PHYs.
+----[xaxiemacif_physpeed.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/LWIP_Modifcations/xaxiemacif_physpeed.c): Modifications done to the default LWIP xaxiemacif_physpeed.c file. Added support for Realtek Ethernet PHYs.
 
 --PC_GUI_Server_Client: The code for our Desktop TCP Server and Desktop TCP Client. Also contains a GUI.
 
