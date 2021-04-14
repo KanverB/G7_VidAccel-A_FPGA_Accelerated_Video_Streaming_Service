@@ -17,9 +17,9 @@ Our project uses a Desktop TCP Server to take in a input video and split it into
 
 root
 
---./docs: Directory holding all our documentation.
+--./docs/: Directory holding all our documentation.
 
-----./docs/Final Demo Presentation: Our slides that were used in the final presentation of our project.
+----./docs/Final Demo Presentation.pdf: Our slides that were used in the final presentation of our project.
 
 --./Example_Video: Directory contaning our example source video to send using our project.
 
