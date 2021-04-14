@@ -37,6 +37,15 @@ root
 
 --src:
 
+----ccc_codec_ip_1.0: Directory containing src code and test benches for our encoder and decoder.
+
+----constraints: Directory containing constraints for our boards SD Card pins.
+
+----MicroBlaze_Code: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
+
+----SD_MYCODE_1.0: Directory containing src code and test drivers for our sd_controller interface. MircoBlaze would communicate with the SD Card using this interface. 
+
+----SD_SPI: Directory containing src code of our modifications to the SD Card SPI interface we used from MIT. 
 
 ## Authors
 
