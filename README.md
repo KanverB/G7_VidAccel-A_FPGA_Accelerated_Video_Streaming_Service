@@ -33,7 +33,7 @@ root
 
 ----frame_splitter.py: Code for Desktop TCP Server. Also, splits a video into RGB 888 frames.
 
-----frame_viewer.py: Code for Desktop TCP Client. Also, displays the decoded frames on a GUI and prints to the terminal debugging and logging messages from the FPGA.
+----frame_viewer.py: Code for Desktop TCP Client. Also, displays the decoded frames on a GUI and prints to the terminal debugging and logging messages from the FPGA TCP Client.
 
 --src:
 
