@@ -17,9 +17,9 @@ Our project uses a Desktop TCP Server to take in a input video and split it into
 
 root
 
---docs: Directory holding all our documentation.
+--docs/: Directory holding all our documentation.
 
-----Final Demo Presentation[./docs/](Final Demo Presentation.pdf): Our slides that were used in the final presentation of our project.
+----[Final Demo Presentation](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/docs/Final%20Demo%20Presentation.pdf): Our slides that were used in the final presentation of our project.
 
 --Example_Video: Directory contaning our example source video to send using our project.
 
