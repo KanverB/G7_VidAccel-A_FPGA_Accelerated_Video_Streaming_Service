@@ -25,7 +25,9 @@ root
 
 ----IMG_3138.mp4: The video we encoded and decoded. A very cute cat.
 
---LWIP_Modifcations:
+--LWIP_Modifcations: Changes we made to LWIP driver files.
+
+----xaxiemacif_physpeed.c: Modifications done to the default LWIP xaxiemacif_physpeed.c file. Added support for Realtek Ethernet PHYs.
 
 --PC_GUI_Server_Client:
 
