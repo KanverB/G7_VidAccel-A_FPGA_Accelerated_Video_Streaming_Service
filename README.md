@@ -1,1 +1,1 @@
-# G7_VidAccel_A_FPGA_Accelerated_Video_Streaming_Service
+# G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service
