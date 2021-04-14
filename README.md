@@ -1,5 +1,11 @@
 # G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service
 
+## Video Demo
+
+Below is a video showcasing our project.
+
+https://user-images.githubusercontent.com/47866804/114767729-00136d00-9d36-11eb-8a88-864875088e79.mp4
+
 ## Description
 
 We built a video streaming platform, essentially something similar to Netflix but much smaller in scope. For our project, we used FPGAs to accelerate the encoding and decoding part of video streaming since this takes a significant portion of time on a CPU. 
