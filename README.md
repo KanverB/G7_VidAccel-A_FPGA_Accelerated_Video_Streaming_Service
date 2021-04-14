@@ -12,8 +12,8 @@ Our project uses a Desktop TCP Server to take in a input video and split it into
 
 ## Authors
 
-Tianyi Zhang
-Kanver Bhandal
+Tianyi Zhang,
+Kanver Bhandal,
 Bruno Almeida 
 
 ## Acknowledgements
