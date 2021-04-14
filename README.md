@@ -73,17 +73,31 @@ root
 
 ----MicroBlaze_Code/: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
 
-------echo.c: 
+------echo.c: The src code for our FPGA TCP Server/Client. Used to send the frames to anyone who connects. Messages or prints are logged using UART onto a terminal.
 
-------lwipopts.h.c: 
+------lwipopts.h.c: The src code for the parameters we choose for the LWIP driver code. These parameters can be modifed using the Modify BSP Settings button in the system.mss file using Xilinx SDK.
 
-------main.c: 
+------main.c: The src code for our FPGA TCP Server/Client. Used to receive frames. Also encodes/decodes the frames and writes them to the SD Card. Messages or prints are logged using UART onto a terminal.
 
-------platform.c: 
+------platform.c: The src code for adding interrupts for UART into MicroBlaze.
 
 ----SD_MYCODE_1.0/: Directory containing src code and test drivers for our sd_controller interface. MircoBlaze would communicate with the SD Card using this interface. 
 
+------hdl/: Directory containing our src verilog files.
+
+--------SD_MYCODE_v1_0.v: AXI Lite interface src code wrapper.
+
+--------SD_MYCODE_v1_0_S00_AXI.v: AXI Lite interface src code.
+
+------MicroBlaze_test/: Directory containing our MicroBlaze testing code.
+
+--------sdcarddriver.c: Test file that runs on MicroBlaze that writes and reads blocks to the SD Card.
+
 ----SD_SPI/: Directory containing src code of our modifications to the SD Card SPI interface we used from MIT. 
+
+------hdl/: Directory containing our src verilog files.
+
+--------SD_SPI.v: Src code for the modifications we made to the SD Card SPI controller from MIT.
 
 ## Authors
 
