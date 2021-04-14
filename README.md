@@ -39,6 +39,24 @@ root
 
 ----ccc_codec_ip_1.0: Directory containing src code and test benches for our encoder and decoder.
 
+------hdl: Directory containing our src verilog files.
+
+--------ccc_codec_ip_v1_0.v: AXI Lite interface src code wrapper.
+
+--------ccc_codec_ip_v1_0_S00_AXI.v: AXI Lite interface src code.
+
+--------ccc_decoder.sv: Decoder src code.
+
+--------ccc_decoder_4x4.sv: Decoder src code that generates multiple decoders.
+
+--------ccc_encoder.sv: Encoder src code.
+
+--------ccc_encoder_4x4.sv: Encoder src code that generates multiple encoders.
+
+------MicroBlaze_test: Directory containing our MicroBlaze testing code.
+
+--------ccc_codec_test_\*.c: 5 test files that each run a different test on the encoder and decoder.
+
 ----constraints: Directory containing constraints for our boards SD Card pins.
 
 ----MicroBlaze_Code: Directory containing src code for FPGA TCP Server and FPGA TCP Client.
