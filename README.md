@@ -15,6 +15,21 @@ Our project uses a Desktop TCP Server to take in a input video and split it into
 
 ## Repository Structure
 
+root
+
+  docs: Directory holding all our documentation.
+    Final Demo Presentation: Our slides that were used in the final presentation of our project.
+
+  Example_Video: Directory contaning our example source video to send using our project.
+    IMG_3138.mp4: The video we encoded and decoded. A very cute cat.
+
+  LWIP_Modifcations:
+
+  PC_GUI_Server_Client:
+
+  src:
+
+
 ## Authors
 
 Tianyi Zhang,
