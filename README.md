@@ -115,4 +115,4 @@ Daniel Rozhko - Our TA who provided us with lots of helpful feedback and helped 
 
 MIT - For their open source SD Card Controller SPI IP. The original SD Card SPI code can be found here: http://web.mit.edu/6.111/www/f2015/tools/sd_controller.v
 
-Group 1 - Hyperspectral Image Compression and Decompression on FPGAs - For providing us with help on what modifcations were needed to be done to the SD Card Controller IP and for sending us the source of the IP they used for the SD Card.
+Group 1 - Hyperspectral Image Compression and Decompression on FPGAs - For providing us with help on what modifications needed to be done to the SD Card Controller IP and for sending us the source of the IP they used for the SD Card.
