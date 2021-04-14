@@ -77,7 +77,7 @@ root
 
 ------[echo.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/echo.c): The src code for our FPGA TCP Server/Client. Used to send the frames to anyone who connects. Messages or prints are logged using UART onto a terminal.
 
-------[lwipopts.h.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/lwipopts.h): The src code for the parameters we choose for the LWIP driver code. These parameters can be modifed using the Modify BSP Settings button in the system.mss file using Xilinx SDK.
+------[lwipopts.h.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/lwipopts.h): The src code for the parameters we choose for the LWIP driver code. These parameters can be modified using the Modify BSP Settings button in the system.mss file using Xilinx SDK.
 
 ------[main.c](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/src/MicroBlaze_Code/main.c): The src code for our FPGA TCP Server/Client. Used to receive frames. Also encodes/decodes the frames and writes them to the SD Card. Messages or prints are logged using UART onto a terminal.
 
