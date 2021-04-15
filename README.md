@@ -27,7 +27,7 @@ root
 
 ----[Final Demo Presentation](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/docs/Final%20Demo%20Presentation.pdf): Our slides that were used in the final presentation of our project.
 
-----Final Report: A report providing an overview of our project, the outcome, our schedule, a description of the IP blocks, and tips and tricks. 
+----[Final Report](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/docs/Final%20Report.pdf): A report providing an overview of our project, the outcome, our schedule, a description of the IP blocks, and tips and tricks. 
 
 ----[Video](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/docs/project_demo.mp4): A video demo of our project. 
 
