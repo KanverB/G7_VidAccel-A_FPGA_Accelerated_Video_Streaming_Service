@@ -29,6 +29,8 @@ root
 
 ----Final Report: A report providing an overview of our project, the outcome, our schedule, a description of the IP blocks, and tips and tricks. 
 
+----[Video](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/docs/project_demo.mp4): A video demo of our project. 
+
 --Example_Video/: Directory containing our example source video to send using our project.
 
 ----[IMG_3138.mp4](https://github.com/KanverB/G7_VidAccel-A_FPGA_Accelerated_Video_Streaming_Service/blob/main/Example_Video/IMG_3138.mp4): The video we encoded and decoded. A very cute cat.
